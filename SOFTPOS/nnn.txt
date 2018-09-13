@@ -1,0 +1,15 @@
+var imagen=$(this).attr("src");
+
+var varsrc="'"+imagen+"'";
+	$("#centro").append("<img src="+imagen+">");
+	$("#oculto").show();
+	$("#seleccion").hide();
+	
+	
+		
+	});
+	
+	
+	$('#btncomentar').click(function(){
+	$( "#lista" ).append( "<li><div><img src='images/th.jpg'/></div></li>" );
+	});

@@ -1,0 +1,10 @@
+$("#listaprod").append("<li class='lifact' id='lifact'><div class='contimg'><img class='imagenfact' src="+img+"></div><div class='cantidad'>"+canti+"</div><div class='precio'>"+precio+"</div><div class='precio'>"+total+"</div><div class='eliminar'><a href='#' class='.remove' >X</a></div></li><div class='form-group'><label>Label</label><input type='text' class='form-control' placeholder='text' name='input[]'><button class='btn btn-default remove'>Remove</button></div>'");	
+
+
+
+
+$( "#listaprod li" ).each(function( index ) {
+		$(this).append("<div id='li"+index+"'>"+index+"</div>"); 
+		
+  alert( index + ": " + $( this ).text() );
+});

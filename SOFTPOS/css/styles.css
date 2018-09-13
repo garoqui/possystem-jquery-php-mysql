@@ -1,0 +1,23 @@
+
+.content
+{
+width:1280px;
+margin: 0 auto;
+background-color:#245d92;
+
+	
+	
+}
+#oculto
+{
+width:100%;	
+	
+float:left;
+}
+
+#centro
+{
+margin-left:320px ;
+margin-top:200px;
+position:absolute;	
+}
